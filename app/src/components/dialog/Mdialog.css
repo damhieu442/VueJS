@@ -1,0 +1,116 @@
+.con-ms-message-box {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 888;
+  opacity: 1;
+}
+
+.message-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ms-message-bg {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 10;
+  opacity: 1;
+}
+
+.drag-it-dude {
+  position: absolute;
+  z-index: 100;
+}
+
+.ms-mesage-box {
+  position: relative;
+  z-index: 100;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+  background: #fff;
+  border-radius: 3px;
+}
+
+.ms-message-box--content {
+  padding: 24px;
+}
+
+.mess-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  justify-content: space-between;
+}
+
+.mess-header-title {
+  font-family: Roboto Bold;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1f1f1f;
+}
+
+.mess-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.message-content {
+  overflow: auto;
+  max-height: 400px;
+  margin-bottom: 32px;
+  padding-left: 16px;
+  padding-top: 12px;
+}
+
+.message {
+  display: block;
+}
+
+.mess-line {
+  height: 1px;
+  background: #b8bcc3;
+  margin-bottom: 20px;
+}
+
+.mess-footer {
+  position: relative;
+  height: 36px;
+}
+
+.Left {
+  float: left;
+}
+
+.RightSecond {
+  float: right;
+  padding-left: 8px;
+}
+
+.RightFirst {
+  float: right;
+}
+
+.first-button {
+  border: 1px solid #8d9096;
+  color: #111;
+  background-color: transparent;
+}
+
+.first-button:hover {
+  background-color: #d2d3d6;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

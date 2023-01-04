@@ -1,0 +1,144 @@
+.navbar-wrapper .navbar {
+  padding: 0;
+  height: 48px;
+}
+
+.header-icon {
+  margin: 0 10px;
+}
+
+.header-menu-icon-simple {
+  margin-top: 12px;
+}
+
+.header-branch {
+  cursor: pointer;
+}
+
+.con-ms-tooltip .tooltip-content {
+  height: 100%;
+}
+
+.header-branch-name {
+  font-family: Roboto Medium;
+  padding-left: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 500;
+  max-width: 600px;
+  text-overflow: ellipsis;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  color: #666;
+}
+
+.header-branch-icon {
+  transform: rotate(90deg);
+  margin-left: 10px;
+}
+
+.header-menu-icon {
+  position: relative;
+  height: 48px;
+  width: 44px;
+}
+
+.con-ms-tooltip .tooltip-content {
+  height: 100%;
+}
+
+.wrap-notify {
+  position: relative;
+  padding-top: 12px;
+  margin-top: 0;
+}
+
+.wiggle {
+  -webkit-animation: none;
+  animation: none;
+}
+
+.notifyno,
+.notifySyncno {
+  background: #ff6e6e;
+  height: 18px;
+  border: none;
+  border-radius: 18px;
+  font-size: 10px;
+  color: #fff;
+  position: absolute;
+  top: 6px;
+  padding: 2px 6px;
+}
+
+.notifyno {
+  right: -5px;
+}
+
+/* .header-menu-icon:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+
+.header-menu-icon:hover:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 8px solid transparent;
+  border-left: 22px solid transparent;
+  border-right: 22px solid transparent;
+  border-top: 8px solid #000;
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+}
+
+.header-menu-icon:hover:after {
+  z-index: 101;
+}
+
+.header-menu-icon:hover .icon-bell__nav {
+  background-position: -256px -88px;
+} */
+
+.dropdown-secondary {
+  padding-right: 20px;
+}
+
+.ms-dropdown-user {
+  cursor: pointer;
+}
+
+.user-ava {
+  background: #e2e2e2;
+  margin-right: 6px;
+  border-radius: 15px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+
+.user-name {
+  align-items: center;
+  font-size: 14px;
+  display: flex;
+  margin-right: 8px;
+}
+
+.display-user {
+  font-family: Roboto Medium;
+  font-weight: 500;
+  color: #666;
+  white-space: nowrap;
+  max-width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 0;
+}

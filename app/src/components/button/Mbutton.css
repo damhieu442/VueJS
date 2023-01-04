@@ -1,0 +1,58 @@
+.button {
+  border: unset;
+  color: unset;
+  background: unset;
+  padding: 0 16px;
+  height: 36px;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.ms-button {
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  box-sizing: border-box;
+  background: 0 0;
+}
+
+.ms-button-primary {
+  border: 1px solid transparent;
+  color: #fff;
+  background-color: #50b83c;
+}
+
+.ms-button-primary:hover {
+  background-color: #57c841;
+}
+
+.ms-dropdown-style-default {
+  height: 36px;
+}
+
+.ms-button .ms-button--text {
+  font-family: Roboto Medium;
+  font-weight: 500;
+  position: relative;
+  color: inherit;
+  display: flex;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+  font-size: 13px;
+  line-height: 13px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ms-dropdown-padding-custom-feature {
+  padding: 6px 1px 6px 16px !important;
+}
+
+.ms-dropdown-type-feature {
+  color: #0075c0;
+}

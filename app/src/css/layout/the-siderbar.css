@@ -1,0 +1,131 @@
+.menu-container {
+  position: relative;
+  width: 52px;
+  background-color: #041434;
+  transition: all 0.2s ease;
+}
+
+.expand {
+  width: auto;
+}
+
+.expand .logo-container {
+  padding: 24px;
+}
+
+.logo-container {
+  display: flex;
+  background-color: #041434;
+  padding: 10px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-left: 10px;
+  height: 32px;
+  display: block;
+}
+
+.logo .img-icon {
+  height: 32px;
+}
+
+.menu-bar {
+  position: relative;
+}
+
+.menu-item-list {
+  height: calc(100vh - 48px);
+}
+
+.scroller {
+  overflow: overlay;
+  scrollbar-color: #d4d7dc #f1f1f1;
+  scrollbar-width: thin;
+}
+
+.expand .menu-item {
+  padding-left: 8px;
+}
+
+.menu-item {
+  line-height: 42px;
+  height: 42px;
+  border-left: 6px solid transparent;
+  padding-left: 8px;
+  padding-right: 14px;
+  color: #869ab8;
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+
+.menu-item:hover::before {
+  content: "";
+  background: #d4d7dc;
+  opacity: 0.2;
+  width: calc(100% + 6px);
+  height: 42px;
+  left: -6px;
+  top: 0;
+  position: absolute;
+}
+
+.menu-item.active {
+  position: relative;
+  border-left-color: #2ca01c;
+  color: #fff;
+  font-weight: 700;
+}
+
+.menu-item.active:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background: #d4d7dc;
+  opacity: 0.2;
+  position: absolute;
+}
+
+.expand .menu-item .menu-item__icon {
+  margin-right: 8px;
+}
+
+.menu-item .menu-item__icon {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.menu-item__title {
+  font-family: Roboto Medium;
+  font-weight: 500;
+}
+
+.separation-line {
+  margin: 5px 20px;
+  border-top: 0.5px solid #fff;
+  opacity: 0.3;
+}
+
+.menu-item__notify {
+  position: relative;
+  align-items: center;
+  margin-right: 8px;
+  margin-left: auto;
+}
+
+.notify_icon {
+  background: #ff6e6e;
+  height: 18px;
+  border: none;
+  width: 18px;
+  border-radius: 18px;
+  font-size: 10px;
+  color: #fff;
+  display: inline;
+  padding: 2px 6px;
+}

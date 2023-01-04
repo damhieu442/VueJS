@@ -1,0 +1,281 @@
+.ms-popup {
+  position: relative;
+  transition: all 0.2s;
+  z-index: 200;
+  max-width: calc(100% - 30px);
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.con-ms-popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  z-index: 200;
+}
+
+.ms-popup--background {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 98;
+  opacity: 1;
+}
+
+.drag-it-dude {
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ms-popup {
+  position: relative;
+  transition: all 0.2s;
+  z-index: 200;
+  max-width: calc(100% - 30px);
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.ms-popup-content {
+  min-width: 900px;
+  max-width: 900px;
+  width: 900px;
+}
+
+.ms-popup--header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px 5px;
+  position: relative;
+}
+
+.ms-popup--title {
+  width: 100%;
+  padding: 20px 32px;
+  padding-right: 12px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+
+.header-popup {
+  align-items: center;
+}
+
+.checkbox-popup {
+  padding: 0 20px;
+}
+
+.header-popup .title-popup {
+  font-size: 24px;
+  color: #111;
+  font-weight: 700;
+}
+
+.ms-popup-close {
+  display: flex;
+  padding: 12px;
+}
+
+.mr-6-px {
+  margin-right: 6px;
+}
+
+.ms-popup--header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px 5px;
+  position: relative;
+}
+
+.ms-popup--content {
+  flex-direction: column;
+  display: flex;
+  overflow: auto;
+  overflow-y: visible;
+  padding: 0 32px 20px;
+}
+
+.employee-scroll {
+  overflow: auto;
+}
+
+.pd-b-12 {
+  padding-bottom: 12px;
+}
+
+.p-r-26 {
+  padding-right: 26px;
+}
+
+.w-1-2 {
+  width: 50% !important;
+}
+
+.row-input {
+  padding-bottom: 12px;
+}
+
+.p-r-6 {
+  padding-right: 6px;
+}
+
+.w-1-3 {
+  width: 30% !important;
+}
+
+.w-2-5 {
+  width: 40% !important;
+}
+
+.w-3-5 {
+  width: 60% !important;
+}
+
+.w-4-5 {
+  width: 80% !important;
+}
+
+.ms-date-picker-container .ms-input-title,
+.ms-input .ms-input-title {
+  font-size: 12px;
+  font-weight: 700;
+  padding-bottom: 4px;
+  white-space: nowrap;
+}
+
+.ms-input .ms-input-title-require {
+  color: red;
+}
+
+.ms-combo {
+  position: relative;
+  width: 100%;
+}
+
+.ms-combo .combo-title {
+  width: max-content;
+}
+
+.ms-combo .combo-title .combo-title__text {
+  font-size: 12px;
+  font-weight: 700;
+  color: #212121;
+  padding-bottom: 4px;
+}
+
+.ms-combo .combo-title .combo-required__text {
+  color: #f77;
+}
+
+.ms-date-picker-container {
+  position: relative;
+}
+
+.gender {
+  padding-left: 10px;
+}
+
+.label-input {
+  font-size: 12px;
+  font-weight: 700;
+  padding-bottom: 4px;
+  color: #111;
+}
+
+.p-t-5 {
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+}
+
+.con-ms-radio {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.con-ms-radio input[type="radio"] {
+  accent-color: #26a216;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.ms-radio--label {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.flex-direction-col {
+  flex-direction: column;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.popup-footer {
+  height: 36px;
+}
+
+.divide {
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  margin: 32px 0 20px;
+  position: relative;
+}
+
+.align-right {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn-left {
+  position: absolute;
+}
+
+.w-1-2 {
+  width: 50% !important;
+}
+
+.right-group-button-popup {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.px-3 {
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+}
+
+.first-button {
+  border: 1px solid #8d9096;
+  color: #111;
+  background-color: transparent;
+}
+
+.first-button:hover {
+  background-color: #d2d3d6;
+}

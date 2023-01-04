@@ -1,0 +1,147 @@
+.router-view.fix-view {
+  padding: 0 !important;
+}
+
+.router-view .router-content {
+  padding-top: 48px;
+  padding-left: 20px;
+  background-color: #eceef1;
+}
+
+.layout-dictionary {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 48px);
+}
+
+.title-distance {
+  padding: 24px 30px 24px 0;
+  position: relative;
+  top: 0;
+  z-index: 29;
+  align-items: center;
+  width: calc(100% - 10px);
+  background: #eceef1;
+  transition: top 0.25s;
+}
+
+.header-di {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-di .title-di {
+  font-family: Roboto Bold;
+  font-size: 24px;
+  font-weight: 700;
+  color: #111;
+}
+
+.header-list .header-button {
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.ms-dropdown {
+  display: flex;
+}
+
+.layout-dictionary .body {
+  padding: 0 30px 0 0;
+  scroll-behavior: smooth;
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  margin-bottom: 48px;
+}
+
+.grid-list-data {
+  background: #fff;
+  padding: 16px 16px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.grid-button-list.flex {
+  padding: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.sticky {
+  position: sticky !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.flex-grow {
+  flex-grow: 1 !important;
+}
+
+.inline {
+  display: inline !important;
+}
+
+.grid-list-data .grid-button-list .ultility-buttons {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.grid-list-data .grid-button-list .ultility-buttons .list-button {
+  padding: 0 6px;
+}
+
+.content-input-list {
+  width: 250px;
+  float: left;
+  margin-right: 0;
+}
+
+.input-search {
+  width: 240px;
+}
+
+.ms-input {
+  color: #111;
+  width: 100%;
+}
+
+.body-height {
+  height: calc(100% - 84px);
+}
+
+.grid-model-control {
+  min-width: 100%;
+}
+
+.function-list {
+  padding: 0;
+  width: 140px;
+  position: absolute;
+  z-index: 100;
+  list-style: none;
+  color: black;
+  top: 20px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #bdbdbd;
+}
+
+.function-list li {
+  width: 100%;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.function-list li:hover {
+  color: #50b83c;
+  background-color: #eee;
+}

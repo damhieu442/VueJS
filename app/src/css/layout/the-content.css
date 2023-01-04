@@ -1,0 +1,45 @@
+#content-area {
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+}
+
+#content-area .content-wrapper {
+  min-height: calc(100vh - 48px);
+}
+
+.navbar-wrapper {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  background: #fff;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.items-center {
+  align-items: center !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.align-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.content-space {
+  justify-content: space-between;
+}
+
+.ms-dropdown {
+  display: flex;
+}
